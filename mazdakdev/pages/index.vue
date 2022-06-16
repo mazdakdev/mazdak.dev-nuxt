@@ -43,20 +43,21 @@
         </h3>
 
         <div class="flex gap-6 flex-col md:flex-row ">
-          <div class="post-1">
-
+          <div class="post-1 shadow-sm justify-center  flex p-5 ">
+              <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
           </div>
 
-          <div class="post-2">
-
+          <div class="post-2 shadow-sm justify-center  flex p-5">
+              <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
           </div>
 
-          <div class="post-3">
+          <div class="post-3 shadow-sm justify-center  flex p-5">
+              <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
           </div>
      
         </div>
 
-        <nuxt-link to="/blog">
+       
           <a class="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
             Read all posts
 
@@ -77,12 +78,23 @@
 
             </svg>
           </a>
-        </nuxt-link>
-           <h3 class="font-bold text-2xl md:text-4xl tracking-tight mt-16 text-white">
-          Download CV
+
+        <h3 class="font-bold text-2xl md:text-4xl tracking-tight mt-16 text-white">
+                About Me
+        </h3>
+        <p class="text-gray-100 mt-10 ">
+            I'm 16 years old teenager developer from Iran who's in love with technology ,
+            I started programming when I was 10 with C++.
+            Now I mostly focused on Django , Python , Vue.js , Nuxt.js , AI , Ml , & Blockchain
+            and of course Git , Docker , Linux and etc.
+            Being developer means to have a power of creation for me 
+        </p>
+
+        <h3 class="font-bold text-2xl md:text-4xl tracking-tight mt-16 text-white">
+            Download CV
         </h3>
 
-  
+
       <div class="flex flex-col md:flex-row mt-10 justify-center items-center ">
             <button class="cv ml-32 flex flex-col md:flex-row items-center justify-center">
                 <p class="text-gray-100">CV - EN</p>
@@ -96,7 +108,8 @@
         </div>
 
 
-        <footer class="mt-40 border-t  border-gray-800">
+
+        <footer class="mt-40 border-t  border-gray-800 shadow-md">
             <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-3">
                 <div class="ml-20">
                     <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Pages</h2>
