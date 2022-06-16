@@ -47,6 +47,17 @@ body{
     background-origin: border-box;
     border: 4px solid transparent;
     border-radius: 20px;
-    box-shadow:
-        inset -999px 0 0 #111827;
+    box-shadow: inset -999px 0 0 #111827;
+}
+
+.cv{
+    width: 147px;
+    height: 56px;
+    border: 1px solid transparent;
+    border-radius: 49px;
+    background: -moz-linear-gradient(180deg, #0BFFD3 0%, #305C9D 100%);
+    background: -webkit-linear-gradient(180deg, #0BFFD3 0%, #305C9D 100%);
+    -moz-background-origin: border;
+    background-origin: border-box;
+    box-shadow: inset -999px 0 0 #111827;
 }

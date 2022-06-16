@@ -57,14 +57,14 @@
         </div>
 
         <nuxt-link to="/blog">
-          <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
+          <a class="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
             Read all posts
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="h-6 w-6 ml-1"
+              class="h-6 w-6 ml-1"
             >
 
             <path
@@ -78,6 +78,78 @@
             </svg>
           </a>
         </nuxt-link>
+           <h3 class="font-bold text-2xl md:text-4xl tracking-tight mt-16 text-white">
+          Download CV
+        </h3>
 
+  
+      <div class="flex flex-col md:flex-row mt-10 justify-center items-center ">
+            <button class="cv ml-32 flex flex-col md:flex-row items-center justify-center">
+                <p class="text-gray-100">CV - EN</p>
+                <svg  class="fill-gray-100 w-[16px] h-[15px] ml-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+            </button>
+
+            <button class="cv ml-40 flex flex-col md:flex-row justify-center items-center ">
+                <p class="text-gray-100">CV - FA</p>
+                <svg  class="fill-gray-100 w-[16px] h-[15px] ml-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+            </button>
+        </div>
+
+
+        <footer class="mt-40 border-t  border-gray-800">
+            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-3">
+                <div class="ml-20">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Pages</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline">Home</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">About</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Projects</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Snippets</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml-20">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Contact Me</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Github</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Linkedin</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Email</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Telegram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml-20">
+                    <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Blog</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">CV</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Stack&nbsp;overflow</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Hack the Box</a>
+                        </li>
+                    </ul>
+                </div>
+      
+            </div>
+        
+        </footer>
     </div>
+
 </template>
