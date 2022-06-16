@@ -5,7 +5,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Pages</h2>
                 <ul class="text-gray-300">
                     <li class="mb-4">
-                        <a href="#" class=" hover:underline">Home</a>
+                        <nuxt-link href="/" class=" hover:underline">Home</nuxt-link>
                     </li>
                     <li class="mb-4">
                         <a href="#" class="hover:underline">About</a>
@@ -22,16 +22,16 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Contact Me</h2>
                 <ul class="text-gray-300">
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Github</a>
+                        <a href="https://github.com/mazdakdev" class="hover:underline">Github</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/mazdak-pakaghideh/" class="hover:underline">Linkedin</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Email</a>
+                        <a href="mailto:mazdak.software@gmail.com" class="hover:underline">Email</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Telegram</a>
+                        <a href="https://t.me/i_mazdak" class="hover:underline">Telegram</a>
                     </li>
                 </ul>
             </div>
