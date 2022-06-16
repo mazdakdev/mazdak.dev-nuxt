@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-40 border-t  border-gray-800 shadow-md">
+    <footer class="mt-40 border-t  border-gray-800 shadow-md  -ml-20 md:-ml-0">
         <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-3">
             <div class="ml-20">
                 <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">Pages</h2>

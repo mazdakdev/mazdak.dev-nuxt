@@ -12,8 +12,7 @@ body{
 }
 
 .post-1{
-    width: 208px;
-    height: 210px;
+
     background: -moz-linear-gradient(315deg, #D8B4FE 0%, #818CF8 74%);
     background: -webkit-linear-gradient(315deg, #D8B4FE 0%, #818CF8 74%);
     -moz-background-origin: border;
@@ -26,8 +25,7 @@ body{
 
 
 .post-2 {
-    width: 208px;
-    height: 210px;
+
     background: -moz-linear-gradient(315deg, #6EE7B7 0%, #9333EA 74%);
     background: -webkit-linear-gradient(315deg, #6EE7B7 0%, #9333EA 74%);
     -moz-background-origin: border;
@@ -39,8 +37,7 @@ body{
 }
 
 .post-3 {
-    width: 208px;
-    height: 210px;
+ 
     background: -moz-linear-gradient(315deg, #FDE68A 0%, #FECACA 74%);
     background: -webkit-linear-gradient(315deg, #FDE68A 0%, #FECACA 74%);
     -moz-background-origin: border;
