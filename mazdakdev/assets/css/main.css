@@ -48,8 +48,7 @@ body{
 }
 
 .cv{
-    width: 147px;
-    height: 56px;
+
     border: 1px solid transparent;
     border-radius: 49px;
     background: -moz-linear-gradient(180deg, #0BFFD3 0%, #305C9D 100%);
