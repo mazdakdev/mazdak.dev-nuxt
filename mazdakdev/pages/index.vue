@@ -2,7 +2,7 @@
 
     <div className="flex flex-col justify-center px-8">
         <div class="flex  flex-col justify-center md:items-start items-center max-w-2xl border-gray-700 mx-auto pb-16">
-            <div class="flex mt-16 flex-col-reverse md:flex-row md:items-start items-center">
+            <div class="flex mt-16 flex-col-reverse md:flex-row md:items-start items-center fadeInDown md:space-x-10">
                 <div class="flex flex-col  md:items-start md:text-start text-center items-center">
                     <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">
                         Mazdak Pakaghideh
