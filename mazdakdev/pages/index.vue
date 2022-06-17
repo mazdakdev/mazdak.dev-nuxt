@@ -33,20 +33,20 @@
             </h3>
 
             <div class="flex gap-6 flex-col md:flex-row  ">
-            <div class="post-1 md:w-[208px] md:h-[210px] h-40 shadow-sm justify-center  flex p-5 ">
-                <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
+            <div class="post-1 md:w-[208px] md:h-[210px] h-40 shadow-sm justify-center items-center md:justify-start md:items-start flex p-5 ">
+                <p class="text-white text-xl text-center  md:text-start ">The Fact that Soraya is no one but Mazdak</p>
             </div>
 
-            <div class="post-2  shadow-sm md:w-[208px] md:h-[210px] h-40 justify-center  flex p-5">
-                <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
+            <div class="post-2  shadow-sm md:w-[208px] md:h-[210px] h-40 justify-center items-center md:justify-start md:items-start flex p-5">
+                <p class="text-white text-xl  text-center md:text-start  ">The Fact that Soraya is no one but Mazdak</p>
             </div>
 
-            <div class="post-3 shadow-sm md:w-[208px] md:h-[210px] h-40 justify-center  flex p-5">
-                <p class="text-white text-xl ">The Fact that Soraya is no one but Mazdak</p>
+            <div class="post-3 shadow-sm md:w-[208px] md:h-[210px] h-40 justify-center items-center md:justify-start md:items-start  flex p-5">
+                <p class="text-white text-xl text-center md:text-start ">The Fact that Soraya is no one but Mazdak</p>
             </div>
             </div>
 
-            <a class="flex mt-8 md:items-start-start md:justify-start items-center justify-center text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
+            <a class="flex mt-8 items-start-start justify-start  text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
                 Read all posts
 
                 <svg
@@ -79,7 +79,7 @@
             I started programming when I was 10 with C++.
             Now I mostly focused on Django , Python , Vue.js , Nuxt.js , AI , Ml , & Blockchain
             and of course Git , Docker , Linux and etc.
-            Being developer means to have a power of creation for me 
+            For me , being a developer means to have a power of creation 
         </p>
     </section>
 
