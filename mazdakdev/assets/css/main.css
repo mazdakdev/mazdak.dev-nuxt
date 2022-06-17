@@ -61,8 +61,8 @@ body{
 .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
@@ -99,8 +99,8 @@ body{
    .fadeInDown {
        -webkit-animation-name: fadeInDown;
        animation-name: fadeInDown;
-       -webkit-animation-duration: 1s;
-       animation-duration: 1s;
+       -webkit-animation-duration: 0.7s;
+       animation-duration: 0.7s;
        -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
    }
@@ -133,3 +133,6 @@ body{
        }
    }
 
+.t{
+    width: calc(50% - 2rem);
+}
