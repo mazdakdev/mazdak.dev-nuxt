@@ -44,7 +44,7 @@
                 </nav>
             </header>
 
-            <div class="flex  flex-col-reverse md:flex-row md:items-start items-center fadeInDown md:space-x-10 z-40 mt-8">
+            <div class="flex  flex-col-reverse md:flex-row md:items-start items-center animate__animated animate__backInDown md:space-x-10 z-40 mt-8">
                 <div class="flex flex-col  md:items-start md:text-start text-center items-center">
                     <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-white">
                         Mazdak Pakaghideh
@@ -69,13 +69,13 @@
                 </div>
             </div>
 
-        <section class="fadeInLeft">
+        <section class="animate__animated animate__backInLeft">
             <h3 class="font-bold text-3xl md:text-start text-center  md:text-4xl tracking-tight text-white">
                 Featured Posts
             </h3>
 
-            <div class="flex gap-6 flex-col md:flex-row mt-6 ">
-                <div class="post-1 md:w-[208px] md:h-[210px] h-40 shadow-sm justify-center items-center  flex p-5 hover:scale-[1.01] ">
+            <div class="flex gap-6 flex-col md:flex-row mt-6 " style="padding:1px;">
+                <div  class="post-1 md:w-[208px] md:h-[210px] h-40 shadow-sm justify-center items-center  flex p-5 hover:scale-[1.01] " >
                     <p class="text-white text-xl text-center  md:text-start ">5 Essential things
                         You must do in 2022 </p>
                 </div>
