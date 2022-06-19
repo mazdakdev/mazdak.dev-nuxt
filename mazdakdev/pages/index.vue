@@ -54,8 +54,8 @@
         
                     </h2>
                     <p class="text-gray-400 mb-16">
-                        Web developer , ML , AI , Blockchain  &
-                        Penetration tester teenager from Iran
+                        Teenager Web developer , ML , AI , Blockchain  &
+                        Penetration tester from Iran
                     </p>
                 </div>
                 <div class="w-[146px] sm:w-[176px] flex items-center mb-8 z-50 ">
