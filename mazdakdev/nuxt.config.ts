@@ -12,7 +12,15 @@ export default defineNuxtConfig({
                     autoprefixer: {},
                 }
             },
-        }
+        },
+        loaders: {
+            sass: {
+                implementation: require('sass'),
+            },
+            scss: {
+                implementation: require('sass'),
+            },
+        },
     },
 
     css: [
