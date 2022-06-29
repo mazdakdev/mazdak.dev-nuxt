@@ -7,7 +7,7 @@
             <div id="burgerBtn" class="mt-6 ml-2" @click="burgerBtn" ></div>
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
-                <a href=""><li class="hover:text-gray-200">Blog</li></a>
+                <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <a href=""><li class="hover:text-gray-200">Snippets</li></a>
                 <a href=""><li class="hover:text-gray-200">Projects</li></a>
                 <a href=""><li class="hover:text-gray-200">CV</li></a>
@@ -21,10 +21,10 @@
                     <div class="hidden md:flex md:w-auto md:order-1"  id="mobile-menu-4">
                         <ul class="flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0">
                             <li>
-                                <a href="#" class="block py-2 pr-4  text-gray-200  rounded p-0 " aria-current="page">Home</a>
+                                <NuxtLink to="/" class="block py-2 pr-4  text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">Blog</a>
+                                <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">Blog</NuxtLink>
                             </li>
                             <li>
                                 <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</a>

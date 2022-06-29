@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col justify-center px-8 demo1" id="mobile" :class="status_mobile">
         <div class="md:hidden ">
-            <div id="burgerBtn" class="mt-6 ml-2" @click="burgerBtn" ></div>
+            <div id="burgerBtn" class="mt-6 ml-3" @click="burgerBtn" ></div>
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
-                <a href=""><li class="hover:text-gray-200">Home</li></a>
+                <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
                 <a href=""><li class="hover:text-gray-200">Blog</li></a>
                 <a href=""><li class="hover:text-gray-200">Snippets</li></a>
                 <a href=""><li class="hover:text-gray-200">Projects</li></a>
@@ -11,14 +11,14 @@
             </ul>
         </div>
 
-        <div class="flex  flex-col justify-center md:items-start items-center max-w-2xl border-gray-700 mx-auto pb-16 " id="mobileBodyContent">
+        <div class="flex  flex-col justify-center md:items-start items-start max-w-2xl border-gray-700 mx-auto pb-16 " id="mobileBodyContent">
             <header>          
                 <nav class="py-7 rounded ">
                     <div class="md:container md:flex md:flex-col md:justify-center md:items-start md:mx-auto">
                         <div class="hidden md:flex md:w-auto md:order-1"  id="mobile-menu-4">
                             <ul class="flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0">
                                 <li>
-                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400  rounded p-0 " aria-current="page">Home</NuxtLink>
+                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
                                     <NuxtLink to="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
@@ -38,36 +38,47 @@
                 </nav>
             </header>
 
-            <h1 class="text-white text-5xl mt-8">Why Python Is Best </h1>
+            <h1 class="text-5xl text-white mt-16 text-center"><strong>Blog</strong></h1>
+            <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
             
-            <div class="flex items-center mt-8">
-                <img alt="Lee Robinson" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
-                <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
+            <div class="relative w-full mt-4">
+                <input aria-label="Search articles" type="text" placeholder="Search articles" class="block w-full px-4 py-2 border  rounded-md border-gray-900 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 text-gray-100"/>
+                <svg class="absolute w-5 h-5 text-gray-400 right-3 top-3 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </div>
-
-            <div class="w-full mt-8 prose-dark max-w-none text-white">
-                <h1 class="text-2xl mb-8 ">
-                    <strong>Why should we Care ?</strong>
-                </h1>
-
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p> 
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
-
-                <h1 class="text-2xl mb-8 ">
-                    <strong>The origin of it  !</strong>
-                </h1>
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
+            
+            <h2 class="text-4xl text-white mt-8"><strong>All Posts</strong></h2>
+            <NuxtLink to="/blog/why-python-is-best" class="w-full mt-8">
+                <div class="flex flex-col justify-between md:flex-row">
+                    <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
+                        Why Python is Best
+                    </h4>
+                </div>
+                <p class="text-gray-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
                 </p>
-               
-            </div>
+            </NuxtLink>
+
+            <NuxtLink to="/blog/why-java-is-best" class="w-full mt-8">
+                <div class="flex flex-col justify-between md:flex-row">
+                    <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
+                        Why Java is Best
+                    </h4>
+                </div>
+                <p class="text-gray-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
+                </p>
+            </NuxtLink>
+
+            <NuxtLink to="/blog/why-csharp-is-best" class="w-full mt-8">
+                <div class="flex flex-col justify-between md:flex-row">
+                    <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
+                        Why C# is Best
+                    </h4>
+                </div>
+                <p class="text-gray-400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
+                </p>
+            </NuxtLink>
 
         </div>
         <Footer/>
@@ -86,7 +97,6 @@ export default defineComponent({
     },
     
   
-    
     methods: {
      
         burgerBtn() {
@@ -103,6 +113,7 @@ export default defineComponent({
     }
 })
 </script>
+
 
 
 

@@ -18,7 +18,7 @@
                         <div class="hidden md:flex md:w-auto md:order-1"  id="mobile-menu-4">
                             <ul class="flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0">
                                 <li>
-                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400  rounded p-0 " aria-current="page">Home</NuxtLink>
+                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
                                     <NuxtLink to="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
@@ -38,7 +38,7 @@
                 </nav>
             </header>
 
-            <h1 class="text-white text-5xl mt-16">Why C# Is Best </h1>
+            <h1 class="text-gray-100 text-5xl mt-8"><strong>Why C# Is Best</strong></h1>
             
 
 

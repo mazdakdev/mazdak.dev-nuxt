@@ -18,7 +18,7 @@
                         <div class="hidden md:flex md:w-auto md:order-1"  id="mobile-menu-4">
                             <ul class="flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0">
                                 <li>
-                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400  rounded p-0 " aria-current="page">Home</NuxtLink>
+                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200   rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
                                     <NuxtLink to="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
@@ -38,16 +38,17 @@
                 </nav>
             </header>
 
-            <h1 class="text-white text-5xl mt-16">Why Java Is Best </h1>
+           
             
 
 
-            <div class="w-full mt-8 prose-dark max-w-none text-white">
+            <div class="w-full mt-8 prose-dark max-w-none text-gray-200">
+                 <h1 class="text-white md:text-5xl text-4xl mb-8"><strong>Why Java Is Best</strong></h1>
                 <div class="flex flex-row  mb-8">
                     <img alt="Mazdak Pakaghideh" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
                     <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
                 </div>
-                <h1 class="text-2xl mb-8 ">
+                <h1 class="text-2xl mb-8 text-gray-100 ">
                     <strong>Why should we Care ?</strong>
                 </h1>
 
@@ -58,7 +59,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
                 </p>    
 
-                <h1 class="text-2xl mb-8 ">
+                <h1 class="text-2xl mb-8 text-gray-100 ">
                     <strong>The origin of it  !</strong>
                 </h1>
                 <p class="mb-8">
