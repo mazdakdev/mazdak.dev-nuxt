@@ -4,7 +4,7 @@
             <div id="burgerBtn" class="mt-6 ml-3" @click="burgerBtn" ></div>
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
-                <a href=""><li class="hover:text-gray-200">Blog</li></a>
+                <Nuxtlink to="/blog"><li class="hover:text-gray-200">Blog</li></Nuxtlink>
                 <a href=""><li class="hover:text-gray-200">Snippets</li></a>
                 <a href=""><li class="hover:text-gray-200">Projects</li></a>
                 <a href=""><li class="hover:text-gray-200">CV</li></a>
@@ -21,7 +21,7 @@
                                     <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
+                                    <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
                                 </li>
                                 <li>
                                     <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</a>
@@ -47,7 +47,7 @@
                     <img alt="Mazdak Pakaghideh" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
                     <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
                 </div>
-                <h1 class="text-2xl mb-8 ">
+                <h1 class="text-2xl mb-8 mt-8 ">
                     <strong>Why should we Care ?</strong>
                 </h1>
 

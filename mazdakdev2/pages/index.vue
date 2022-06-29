@@ -77,7 +77,7 @@
                 <div class="flex gap-6 flex-col md:flex-row mt-6 " style="padding:1px;">
                     <NuxtLink to="/blog/why-python-is-best" class="post-1 md:w-[208px] md:h-[210px] h-40 shadow-sm justify-center items-center  flex p-5 hover:scale-[1.01] " >
                         <p class="text-white text-xl text-center  md:text-start ">
-                          Why Python is Best !?
+                          Here Is Why Python is Best !?
                         </p>
                     </NuxtLink>
 
