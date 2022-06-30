@@ -4,7 +4,7 @@
             <div id="burgerBtn" class="mt-6 ml-3" @click="burgerBtn" ></div>
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
-                <Nuxtlink to="/blog"><li class="hover:text-gray-200">Blog</li></Nuxtlink>
+                <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <a href=""><li class="hover:text-gray-200">Snippets</li></a>
                 <a href=""><li class="hover:text-gray-200">Projects</li></a>
                 <a href=""><li class="hover:text-gray-200">CV</li></a>
@@ -21,10 +21,10 @@
                                     <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
+                                    <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</a>
+                                    <NuxtLink to="/snippets" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</NuxtLink>
                                 </li>
                                 <li>
                                     <a href="#" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Projects</a>
@@ -38,7 +38,7 @@
                 </nav>
             </header>
 
-            <h1 class="text-5xl text-white md:mt-16 mt-8 text-center"><strong>Blog</strong></h1>
+            <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Blog</strong></h1>
             <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
             
             <div class="relative w-full mt-4">

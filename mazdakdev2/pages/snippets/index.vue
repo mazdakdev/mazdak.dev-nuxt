@@ -11,20 +11,20 @@
             </ul>
         </div>
 
-        <div class="flex  flex-col justify-center md:items-start items-center max-w-2xl border-gray-700 mx-auto pb-16 " id="mobileBodyContent">
+        <div class="flex  flex-col justify-center md:items-start items-start max-w-2xl border-gray-700 mx-auto pb-16 " id="mobileBodyContent">
             <header>          
                 <nav class="py-7 rounded ">
                     <div class="md:container md:flex md:flex-col md:justify-center md:items-start md:mx-auto">
                         <div class="hidden md:flex md:w-auto md:order-1"  id="mobile-menu-4">
                             <ul class="flex flex-col mt-4 md:flex-row md:space-x-4 md:mt-0">
                                 <li>
-                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200   rounded p-0 " aria-current="page">Home</NuxtLink>
+                                    <NuxtLink to="/" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0 " aria-current="page">Home</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
+                                    <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">Blog</NuxtLink>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</a>
+                                    <a href="#" class="block py-2 pr-4  text-gray-200 hover:text-gray-100  rounded p-0">Snippets</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Projects</a>
@@ -38,38 +38,58 @@
                 </nav>
             </header>
 
-           
-            
-
-
-            <div class="w-full md:mt-8 mt-16 prose-dark max-w-none text-gray-200">
-                 <h1 class="text-white md:text-5xl text-4xl "><strong>Why Java Is Best </strong></h1>
-                <div class="flex flex-row  mt-8">
-                    <img alt="Mazdak Pakaghideh" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
-                    <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
-                </div>
-                <h1 class="text-2xl mb-8 text-gray-100 mt-8 ">
-                    <strong>Why should we Care ?</strong>
-                </h1>
-
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p> 
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
-
-                <h1 class="text-2xl mb-8 text-gray-100 ">
-                    <strong>The origin of it  !</strong>
-                </h1>
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>
-               
+            <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Code Snippets</strong></h1>
+            <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
+            <div class="grid w-full grid-cols-1 gap-4 my-2 mt-4 sm:grid-cols-2">
+                <NuxtLink class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" to="/snippets/django">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </NuxtLink>             
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>              
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>              
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>              
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>              
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>              
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a> 
+                
+                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
+                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
+                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
+                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                </a>
             </div>
+
 
         </div>
         <Footer/>

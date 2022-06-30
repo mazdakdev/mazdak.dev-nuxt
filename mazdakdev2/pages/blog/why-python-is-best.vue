@@ -4,7 +4,7 @@
             <div id="burgerBtn" class="mt-6 ml-3" @click="burgerBtn" ></div>
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
-                <Nuxtlink to="/blog"><li class="hover:text-gray-200">Blog</li></Nuxtlink>
+                <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <a href=""><li class="hover:text-gray-200">Snippets</li></a>
                 <a href=""><li class="hover:text-gray-200">Projects</li></a>
                 <a href=""><li class="hover:text-gray-200">CV</li></a>
@@ -42,9 +42,9 @@
             
 
 
-            <div class="w-full mt-8 prose-dark max-w-none text-gray-200">
-                 <h1 class="text-white md:text-5xl text-4xl mb-8"><strong>Why Python Is Best </strong></h1>
-                <div class="flex flex-row  mb-8">
+            <div class="w-full md:mt-8 mt-16 prose-dark max-w-none text-gray-200">
+                 <h1 class="text-white md:text-5xl text-4xl "><strong>Why Python Is Best </strong></h1>
+                <div class="flex flex-row  mt-8">
                     <img alt="Mazdak Pakaghideh" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
                     <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
                 </div>
