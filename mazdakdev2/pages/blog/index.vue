@@ -5,9 +5,9 @@
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
                 <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
-                <a href=""><li class="hover:text-gray-200">Snippets</li></a>
-                <a href=""><li class="hover:text-gray-200">Projects</li></a>
-                <a href=""><li class="hover:text-gray-200">CV</li></a>
+                <NuxtLink to="/snippets"><li class="hover:text-gray-200">Snippets</li></NuxtLink>
+                <a href="https://github.com/mazdakdev"><li class="hover:text-gray-200">Github</li></a>
+                <a href="/#cv"><li class="hover:text-gray-200">CV</li></a>
             </ul>
         </div>
 
@@ -27,10 +27,10 @@
                                     <NuxtLink to="/snippets" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</NuxtLink>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Projects</a>
+                                    <a href="https://github.com/mazdakdev" target="_blank" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Github</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">CV</a>
+                                    <a href="/#cv" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">CV</a>
                                 </li>
                             </ul>
                         </div>
@@ -41,10 +41,7 @@
             <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Blog</strong></h1>
             <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
             
-            <div class="relative w-full mt-4">
-                <input aria-label="Search articles" type="text" placeholder="Search articles" class="block w-full px-4 py-2 border  rounded-md border-gray-900 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 text-gray-100"/>
-                <svg class="absolute w-5 h-5 text-gray-400 right-3 top-3 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-            </div>
+      
             
             <h2 class="text-4xl text-white mt-8"><strong>All Posts</strong></h2>
             <NuxtLink to="/blog/why-python-is-best" class="w-full mt-8">
@@ -89,6 +86,80 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+
+    head: {
+      title: 'Mazdak Pakaghideh - Blog',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Personal Website of Mazdak Pakaghideh '
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+        },
+        {
+          hid: 'subject',
+          name: 'subject',
+          content: 'Personal Website'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+        },
+        {
+          hid: 'copyright',
+          name: 'copyright',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'language',
+          name: 'language',
+          content: 'EN'
+        },
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'index,follow'
+        },
+        {
+          hid: 'author',
+          name: 'author',
+          content: 'Mazdak Pakaghideh,Mazdak.software@gmail.com'
+        },
+
+        {
+          hid: 'designer',
+          name: 'designer',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'owner',
+          name: 'owner',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'owner',
+          name: 'owner',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'url',
+          name: 'url',
+          content: 'https://mazdak.dev'
+        },
+        {
+          hid: 'url',
+          name: 'url',
+          content: 'https://mazdak.dev'
+        },
+        
+      ],
+    },
+
     data() {
         return {
             status_mobile: '',

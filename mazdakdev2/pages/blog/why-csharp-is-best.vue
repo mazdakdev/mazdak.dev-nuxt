@@ -5,9 +5,9 @@
             <ul id="nav" :class="nav_status" class="text-gray-400 text-xl ">
                 <NuxtLink to="/"><li class="hover:text-gray-200">Home</li></NuxtLink>
                 <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
-                <a href=""><li class="hover:text-gray-200">Snippets</li></a>
-                <a href=""><li class="hover:text-gray-200">Projects</li></a>
-                <a href=""><li class="hover:text-gray-200">CV</li></a>
+                <NuxtLink to="/snippets"><li class="hover:text-gray-200">Snippets</li></NuxtLink>
+                <a href="https://github.com/mazdakdev"><li class="hover:text-gray-200">Github</li></a>
+                <a href="/#cv"><li class="hover:text-gray-200">CV</li></a>
             </ul>
         </div>
 
@@ -24,23 +24,19 @@
                                     <NuxtLink to="/blog" class="block py-2 pr-4  text-gray-200 hover:text-gray-100 rounded p-0">Blog</NuxtLink>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</a>
+                                    <NuxtLink to="/snippets" class="block py-2 pr-4  text-gray-400 hover:text-gray-200  rounded p-0">Snippets</NuxtLink>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Projects</a>
+                                    <a href="https://github.com/mazdakdev" target="_blank" class="block py-2 pr-4  text-gray-400  hover:text-gray-200 rounded p-0">Github</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">CV</a>
+                                    <a href="/#cv" class="block py-2 pr-4  text-gray-400 hover:text-gray-200 rounded p-0">CV</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </header>
-
-           
-            
-
 
             <div class="w-full md:mt-8 mt-16 prose-dark max-w-none text-gray-200">
                  <h1 class="text-white md:text-5xl text-4xl "><strong>Why C# Is Best </strong></h1>
@@ -80,6 +76,80 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+
+       head: {
+      title: 'Mazdak Pakaghideh - Blog',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Personal Website of Mazdak Pakaghideh '
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+        },
+        {
+          hid: 'subject',
+          name: 'subject',
+          content: 'Personal Website'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+        },
+        {
+          hid: 'copyright',
+          name: 'copyright',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'language',
+          name: 'language',
+          content: 'EN'
+        },
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'index,follow'
+        },
+        {
+          hid: 'author',
+          name: 'author',
+          content: 'Mazdak Pakaghideh,Mazdak.software@gmail.com'
+        },
+
+        {
+          hid: 'designer',
+          name: 'designer',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'owner',
+          name: 'owner',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'owner',
+          name: 'owner',
+          content: 'Mazdak Pakaghideh'
+        },
+        {
+          hid: 'url',
+          name: 'url',
+          content: 'https://mazdak.dev'
+        },
+        {
+          hid: 'url',
+          name: 'url',
+          content: 'https://mazdak.dev'
+        },
+        
+      ],
+    },
+
     data() {
         return {
             status_mobile: '',
