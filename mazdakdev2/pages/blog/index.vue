@@ -7,7 +7,7 @@
                 <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <NuxtLink to="/snippets"><li class="hover:text-gray-200">Snippets</li></NuxtLink>
                 <a href="https://github.com/mazdakdev"><li class="hover:text-gray-200">Github</li></a>
-                <a href="/#cv"><li class="hover:text-gray-200">CV</li></a>
+                <a @click="burgerBtn" href="/#cv"><li class="hover:text-gray-200">CV</li></a>
             </ul>
         </div>
 
@@ -39,7 +39,7 @@
             </header>
 
             <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Blog</strong></h1>
-            <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
+            <h3 class="text-gray-400 mt-4">A Blog related to anything (Tech and ...)</h3>
             
       
             

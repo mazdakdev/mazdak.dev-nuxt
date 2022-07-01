@@ -7,7 +7,7 @@
                 <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <NuxtLink to="/snippets"><li class="hover:text-gray-200">Snippets</li></NuxtLink>
                 <a href="https://github.com/mazdakdev"><li class="hover:text-gray-200">Github</li></a>
-                <a href="/#cv"><li class="hover:text-gray-200">CV</li></a>
+                <a @click="burgerBtn" href="/#cv"><li class="hover:text-gray-200">CV</li></a>
             </ul>
         </div>
 
@@ -40,33 +40,33 @@
 
         <div class="flex w-full justify-between">
             <div>
-                <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Django</strong></h1>
-                <h3 class="text-gray-400 mt-4">Send A OTP</h3>
+                <h1 class="text-5xl text-white md:mt-8 mt-16"><strong>Django</strong></h1>
+                <h3 class="text-gray-400 mt-4">Send Email asynchronously</h3>
             </div>
             <div>
                 <img  alt="Django" src="~/assets/images/django.png" class="rounded-full md:mt-8 mt-16" loading="lazy" width="48" height="48">
             </div>
-
-            
         </div>
-        
+
+        <iframe class="mt-8" src="https://www.thiscodeworks.com/embed/62beb6a9ad02b60015cd0e47" style="width: 100%; height: 398px;" frameborder="0"></iframe>
+
         <h2 class="text-white text-3xl mt-8"> <strong>Usage</strong> </h2>
         <div class="step flex items-center py-4">
             <div class="flex items-center justify-center border  pt-1 font-bold border-gray-800 rounded-full h-8 w-8 text-blue-500">
                 1
             </div>
-            <h3 class="ml-3 tracking-tight text-xl font-bold text-white"><strong>Create OTP</strong></h3>
+            <h3 class="ml-3 tracking-tight text-xl font-bold text-white"><strong>ًReplace</strong></h3>
         </div>
-        <p class="text-white">Lorem ipsum dolorgni necessitatibus provident saepe cumque esse veniam, a quasi mollitia exercitationem maiores quos?</p>
+        <p class="text-white">Replace subject , message , example@gmail.com with your needed values</p>
 
          <div class="step flex items-center py-4">
             <div class="flex items-center justify-center border  pt-1 font-bold border-gray-800 rounded-full h-8 w-8 text-blue-500">
                 2
             </div>
-            <h3 class="ml-3 tracking-tight text-xl font-bold text-white"><strong>Send it</strong></h3>
+            <h3 class="ml-3 tracking-tight text-xl font-bold text-white"><strong>Use it</strong></h3>
         </div>
         
-        <p class="text-white">Lorem ipsum dolorgni necessitatibus provident saepe cumque esse veniam, a quasi mollitia exercitationem maiores quos?</p>
+        <p class="text-white">now you can call this function wherever you want in views.py</p>
         </div>
         <Footer/>
     </div>
@@ -88,7 +88,7 @@ export default defineComponent({
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+          content: 'Mazdak,Mazdak Pakaghideh,Django,email,send email'
         },
         {
           hid: 'subject',

@@ -7,7 +7,7 @@
                 <NuxtLink to="/blog"><li class="hover:text-gray-200">Blog</li></NuxtLink>
                 <NuxtLink to="/snippets"><li class="hover:text-gray-200">Snippets</li></NuxtLink>
                 <a href="https://github.com/mazdakdev"><li class="hover:text-gray-200">Github</li></a>
-                <a href="#cv"><li class="hover:text-gray-200">CV</li></a>
+                <a @click="burgerBtn" href="#cv"><li class="hover:text-gray-200">CV</li></a>
             </ul>
         </div>
 
@@ -38,58 +38,17 @@
                 </nav>
             </header>
 
-            <h1 class="text-5xl text-white md:mt-8 mt-16 text-center"><strong>Code Snippets</strong></h1>
-            <h3 class="text-gray-400 mt-4">Lorem Ipsum Dolar sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit Lorem Ipsum Dolar Sit</h3>
-            <div class="grid w-full grid-cols-1 gap-4 my-2 mt-4 sm:grid-cols-2">
+            <h1 class="md:text-5xl text-4xl text-white md:mt-8 mt-16 text-center"><strong>Code Snippets</strong></h1>
+            <h3 class="text-gray-400 mt-4">All of my tricky code snippets you can also view all of them on github gists</h3>
+            <div class="grid w-full grid-cols-2 gap-4 my-2 mt-8 ">
                 <NuxtLink class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" to="/snippets/django">
                     <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
                     <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
+                    <p class="mt-1 text-gray-400">Send an E-mail</p>
                 </NuxtLink>             
                 
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>              
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>              
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>              
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>              
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>              
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a> 
-                
-                <a class="border border-gray-800 hover:border-gray-700 rounded p-4 w-full bg-gray-900" href="/snippets/stripe">
-                    <img alt="Django" src="~/assets/images/django.png"  class="rounded-full" loading="lazy" width="32" height="32">
-                    <h3 class="text-lg font-bold text-left mt-2 text-gray-100">Django</h3>
-                    <p class="mt-1 text-gray-400">Send A OTP</p>
-                </a>
+            
             </div>
-
 
         </div>
         <Footer/>
@@ -102,17 +61,17 @@ import { defineComponent } from 'vue'
 export default defineComponent({
 
         head: {
-      title: 'Mazdak Pakaghideh - snippets',
+      title: 'Mazdak Pakaghideh - Snippets',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Personal Website of Mazdak Pakaghideh '
+          content: 'Snippets - Personal Website of Mazdak Pakaghideh '
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+          content: 'Mazdak,Mazdak Pakaghideh,code,code snippets,gists,mazdakdev'
         },
         {
           hid: 'subject',
