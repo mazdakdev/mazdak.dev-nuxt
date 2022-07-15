@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxi generate",
+    "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
@@ -12,6 +13,7 @@
     "sass-loader": "10.1.1"
   },
   "dependencies": {
+    "@liara/cli": "^2.24.0",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.7",
     "flowbite": "^1.4.7",

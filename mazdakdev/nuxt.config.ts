@@ -2,8 +2,6 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    target: 'static',
-    
     build: {
         postcss: {
             postcssOptions: {
@@ -13,6 +11,7 @@ export default defineNuxtConfig({
                 }
             },
         },
+
         loaders: {
             sass: {
                 implementation: require('sass'),
@@ -22,6 +21,7 @@ export default defineNuxtConfig({
             },
         },
     },
+
 
     css: [
         '~/assets/css/main.css',
