@@ -96,11 +96,6 @@ export default defineComponent({
           content: 'Personal Website'
         },
         {
-          hid: 'keywords',
-          name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
-        },
-        {
           hid: 'copyright',
           name: 'copyright',
           content: 'Mazdak Pakaghideh'
@@ -154,6 +149,10 @@ export default defineComponent({
             status_mobile: '',
             nav_status: 'hidden'
         }
+    },
+
+    mounted() {
+        window.scrollTo(0,0)
     },
     
   

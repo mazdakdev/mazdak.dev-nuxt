@@ -39,32 +39,104 @@
             </header>
 
             <div class="w-full md:mt-8 mt-16 prose-dark max-w-none text-gray-200">
-                 <h1 class="text-white md:text-5xl text-4xl "><strong>Why C# Is Best </strong></h1>
+                 <h1 class="text-white md:text-5xl text-4xl "><strong>How To Use Nmap</strong></h1>
                 <div class="flex flex-row  mt-8">
                     <img alt="Mazdak Pakaghideh" src="~/assets/images/profile.jpeg" class="rounded-full" loading="lazy" width="24" height="24">
-                    <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jun 29, 2022</p>
+                    <p class="ml-2 text-sm text-gray-300">Mazdak Pakaghideh / Jul 1, 2022</p>
                 </div>
-                <h1 class="text-2xl mb-8 text-gray-100 mt-8 ">
-                    <strong>Why should we Care ?</strong>
-                </h1>
+                <h2 class="text-3xl mb-4 text-gray-100 mt-8 ">
+                    <strong>What is Nmap </strong>
+                </h2>
 
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
+                <p class="mb-4">
+                    Nmap is a popular open source utility for network discovering and vulnerability scanning. in a basic terms we can use this tool to scan all IP addresses in a network and detect running services.
                 </p> 
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
+                <p class="mb-8 text-gray-400">Note: that all of the content provided in this page is only for educational purpose and I'm not responsible for any illegal actions </p>
 
-                <h1 class="text-2xl mb-8 text-gray-100 ">
-                    <strong>The origin of it  !</strong>
-                </h1>
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>    
-                <p class="mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. Eget duis at tellus at urna condimentum mattis. Amet massa vitae tortor condimentum. Suscipit tellus mauris a diam. Odio euismod lacinia at quis risus sed vulputate. Fermentum et sollicitudin ac orci phasellus. Porta non pulvinar neque laoreet suspendisse interdum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum.
-                </p>
-               
+                <h3 class="text-3xl mb-4 text-gray-100 ">
+                    <strong>Features of Nmap</strong>
+                </h3>
+
+                <ul class="mb-8">
+                  <li class="mb-1">🔘<strong class="ml-5">Identify open ports</strong></li>
+                  <li class="mb-1">🔘<strong class="ml-5">Scan for vulnerabilities</strong></li>
+                  <li class="mb-1">🔘<strong class="ml-5">Host discovery</strong></li>
+                  <li class="mb-1">🔘<strong class="ml-5">OS detection</strong></li>
+                  <li class="mb-1">🔘<strong class="ml-5">Gathering information of target</strong></li>
+                </ul>
+            
+                <h3 class="text-3xl mb-4 text-gray-100 ">
+                    <strong>Install it on Linux</strong>
+                </h3>
+
+                <pre class="mb-8"><code class="lang-bash">$ sudo apt-<span class="hljs-built_in">get</span> install <span class="hljs-keyword">nmap</span>
+                </code></pre>
+
+                <h3 class="text-3xl mb-4 text-gray-100 ">
+                    <strong>Install it on Mac</strong>
+                </h3>
+
+                <pre><code class="lang-bash"><span class="hljs-keyword">$ brew </span><span class="hljs-keyword">install </span>nmap
+                </code></pre>
+
+                <p class="text-gray-400 mb-8">Note: you have to install <a class="text-gray-300" href="https://brew.sh">Homebraw</a> before executing this command.</p>
+
+                <h3 class="text-3xl mb-4 text-gray-100">
+                  <strong>Nmap Commands</strong>
+                </h3>
+                <p class="mb-8 text-gray-100">before we process to Nmap commands here is a Nmap basic commands format <br /> nmap [scan type] [option] [target] </p>
+                <ol class="text-gray-100">
+                  <li class="mb-8">
+                    <b class="text-2xl font-bold">1. Scanning a Specific System</b>
+                    <p class="mt-4">Use the command below to scan a specific system. (this command scans 1000 usual ports)</p>
+                     <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">[IP] or [Hostname]</span>
+                    </code></pre>
+                    <p class="mt-4">Example: <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">192.168.1.104</span>
+                    </code></pre></p>
+                  </li>
+
+                  <li class="mb-8">
+                    <b class="text-2xl font-bold">2. Scanning Multiple systems</b>
+                    <p class="mt-4">You can scan multiple systems just like the command above but with a space between IP addresses.</p>
+                     <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">[IP] [IP2] [IP3]</span>
+                    </code></pre>
+                    <p class="mt-4">Example: <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">192.168.1.101</span> <span class="hljs-keyword">192.168.1.102</span> <span class="hljs-keyword">192.168.1.103</span>
+                    </code></pre></p>
+                  </li>
+
+                  <li class="mb-8">
+                    <b class="text-2xl font-bold">3. Retrieve All IP Addresses In a Network</b>
+                    <p class="mt-4">for finding all devices that connected to a specific network use the command below (this scan is TCP SYN Scan type, you may need to change the scan type)</p>
+                     <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">-sS</span> <span class="hljs-keyword">[The subnet range]</span>
+                    </code></pre>
+                    <p class="mt-4">Example: <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">-sS</span> <span class="hljs-keyword">192.168.1.0/24</span>
+                    </code></pre></p>
+                  </li>
+
+
+                  <li class="mb-8">
+                    <b class="text-2xl font-bold">4. Service Version Scanning</b>
+                    <p class="mt-4">You can retrieve running services and their versions in victim's device using the command below </p>
+                     <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">-sV</span> <span class="hljs-keyword">[IP]</span>
+                    </code></pre>
+                    <p class="mt-4">Example: <pre class="mt-4"><code class="lang-bash"><span class="hljs-keyword">$ nmap </span><span class="hljs-keyword">-sV</span> <span class="hljs-keyword">192.168.1.104</span>
+                    </code></pre></p>
+                  </li>
+
+                  <li class="mb-8">
+                    <b class="text-2xl font-bold">5. Other Popular Options</b>
+                    <ul class="mt-4 ">
+                      <li class="mb-1">nmap -A [target] - Aggressive Scan</li>
+                      <li class="mb-1">nmap -6 [target] - IPv6 Target</li>
+                      <li class="mb-1">nmap -sP [target] - Ping Only Scan</li>
+                      <li class="mb-1">nmap -PN [target] - Don't Ping</li>
+                      <li class="mb-1">nmap -sU [target] - UDP Scan</li>
+                      <li class="mb-1">nmap -F [target] - Fast Scan</li>
+                    </ul>
+
+                  </li>
+
+                </ol>
             </div>
 
         </div>
@@ -76,30 +148,25 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-
        head: {
       title: 'Mazdak Pakaghideh - Blog',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Personal Website of Mazdak Pakaghideh '
+          content: 'How to use Nmap - Mazdak Pakaghideh'
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+          content: 'Mazdak,Mazdak Pakaghideh,Nmap,Linux,network scanning,hack,tools,ceh'
         },
         {
           hid: 'subject',
           name: 'subject',
-          content: 'Personal Website'
+          content: 'Nmap'
         },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
-        },
+     
         {
           hid: 'copyright',
           name: 'copyright',
@@ -157,7 +224,10 @@ export default defineComponent({
         }
     },
     
-  
+    mounted() {
+        window.scrollTo(0,0)
+    },
+    
     methods: {
      
         burgerBtn() {

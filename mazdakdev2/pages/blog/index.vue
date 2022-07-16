@@ -44,38 +44,18 @@
       
             
             <h2 class="text-4xl text-white mt-8"><strong>All Posts</strong></h2>
-            <NuxtLink to="/blog/why-python-is-best" class="w-full mt-8">
+            <NuxtLink to="/blog/how-to-use-nmap" class="w-full mt-8">
                 <div class="flex flex-col justify-between md:flex-row">
                     <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
-                        Why Python is Best
+                        How To Use Nmap 
                     </h4>
                 </div>
                 <p class="text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
+                  Nmap is a popular open source utility for network discovering and vulnerability scanning. in a basic terms we can use this tool to scan all IP addresses in a network and detect running services. 
                 </p>
             </NuxtLink>
 
-            <NuxtLink to="/blog/why-java-is-best" class="w-full mt-8">
-                <div class="flex flex-col justify-between md:flex-row">
-                    <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
-                        Why Java is Best
-                    </h4>
-                </div>
-                <p class="text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
-                </p>
-            </NuxtLink>
-
-            <NuxtLink to="/blog/why-csharp-is-best" class="w-full mt-8">
-                <div class="flex flex-col justify-between md:flex-row">
-                    <h4 class="w-full mb-2 text-lg font-medium  md:text-xl text-gray-100">
-                        Why C# is Best
-                    </h4>
-                </div>
-                <p class="text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit. 
-                </p>
-            </NuxtLink>
+      
 
         </div>
         <Footer/>
@@ -96,11 +76,6 @@ export default defineComponent({
           content: 'Personal Website of Mazdak Pakaghideh '
         },
         {
-          hid: 'keywords',
-          name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
-        },
-        {
           hid: 'subject',
           name: 'subject',
           content: 'Personal Website'
@@ -108,7 +83,7 @@ export default defineComponent({
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,iranian developer,teen developer'
+          content: 'Mazdak,Mazdak Pakaghideh,Pakaghideh,developer,مزدک,مزدک پاک عقیده,پاک عقیده,blog,nmap,scan,system scanning'
         },
         {
           hid: 'copyright',
@@ -165,6 +140,10 @@ export default defineComponent({
             status_mobile: '',
             nav_status: 'hidden'
         }
+    },
+
+    mounted() {
+        window.scrollTo(0,0)
     },
     
   
