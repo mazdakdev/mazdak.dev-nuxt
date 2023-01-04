@@ -2,6 +2,7 @@
 
 My Personal Website including blog , code snippets & ... its developed completely static and I did not develop any backend for it you can easily serve it in **github pages**
 
+# this repository is archived and the new one is [mazdakdev-wp](https://github.com/mazdakdev/mazdakdev-wp)
 ## 💡 inspired from [leerob](https://github.com/leerob)
 
 
