@@ -1,11 +1,7 @@
-# mazdak.de Source code ⚡️
+# mazdak.dev Initial Source Code ⚡️
 
-My Personal Website including blog , code snippets & ... its developed completely static and I did not develop any backend for it you can easily serve it in **github pages**
-
-# this repository is archived and the new one is [mazdakdev-wp](https://github.com/mazdakdev/mazdakdev-wp)
-## 💡 inspired from [leerob](https://github.com/leerob)
-
-
+My Personal Website including blog , code snippets & ... 
+It was first developed using nuxtjs SSG then I developed a [wp-theme](https://github.com/mazdakdev/mazdakdev-wp) for the ease of use.
 
 # Tools Used to develop it 🎯
 
@@ -21,6 +17,8 @@ My Personal Website including blog , code snippets & ... its developed completel
 
 
 # Serving on Github pages ✅
+
+you can either generate the static site manually or use github actions, either way the following commands must be executed.
 
 1. clone the source code
 
@@ -44,7 +42,6 @@ user@linux:~$ npx nuxi generate
 user@linux:~$ cd .output/public
 ```
 
-3. now create a github repository and activate the github pages and push the items inside the directory to it
-   
+3. now create a github repository and activate the github pages and push the items.
   
 
